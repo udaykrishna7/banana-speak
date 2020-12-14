@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+:root{
+    --primary-color :  #F6DB32;
+    --width-break: 600px;
+}
+body {
+    font-family: 'Langar', cursive;
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    max-height: 600px;
+    margin: 0px;
+}
+
+.nav {
+    background-color: var(--primary-color);
+    box-align: center;
+    padding: 2rem;
+    margin: 0px;
+}
+
+.nav-heading{
+    font-size: 2rem;
+    text-align: center;
+}
+
+main{
+    margin: auto auto auto 5vh;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    min-height: 10vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+#output {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    min-height: 10vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    border: 1px solid black;
+}
+#btn-translate {
+    background-color: var(--primary-color);
+    font-family: inherit;
+    margin: 2rem auto auto auto;
+    padding: 1rem 2rem;
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    box-align: center;
+    padding: 5vh;
+}
+
+footer .p {
+    font-size: 2vh;
+}
